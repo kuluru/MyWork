@@ -16,7 +16,7 @@
             {
                 "type": "PowerShell",
                 "name": "HyperVEnabled",
-                "scriptUri": "https://cs4e21f7bce1728x44adxa62.file.core.windows.net/cs-v-sukulu-microsoft-com-100320002d542a4c/.cloudconsole/setuphyperv.ps1"
+                "scriptUri": "https://raw.githubusercontent.com/kuluru/MyWork/master/setuphyperv.ps1"
             }
         ],
         "distribute": 
