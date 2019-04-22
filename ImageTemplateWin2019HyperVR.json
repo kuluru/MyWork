@@ -12,14 +12,8 @@
                 "version": "2019.0.20190214"
             
         },
-               "customize": [
-            {
-                "type": "PowerShell",
-                "name": "HyperVEnabled",
-                "scriptUri": "https://raw.githubusercontent.com/kuluru/MyWork/master/setuphyperv.ps1"
-            }
-        ],
-        "distribute": 
+    "customize": [],
+    "distribute": 
         [
             {   
                 "type": "SharedImage",
