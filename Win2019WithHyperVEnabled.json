@@ -15,7 +15,7 @@
         "customize": [
             {
                 "type": "PowerShell",
-                "name": "CreateBuildPath",
+                "name": "HyperVEnabled",
                 "scriptUri": "https://raw.githubusercontent.com/kuluru/MyWork/master/setup.ps1"
             }
         ],
