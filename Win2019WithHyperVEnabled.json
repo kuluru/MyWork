@@ -16,7 +16,12 @@
             {
                 "type": "PowerShell",
                 "name": "HyperVEnabled",
-                "scriptUri": "https://raw.githubusercontent.com/kuluru/MyWork/master/setup.ps1"
+                "scriptUri": "https://raw.githubusercontent.com/kuluru/MyWork/master/setuphyperv.ps1"
+            },
+            {
+                "type": "WindowsRestart",
+                "restartCheckCommand": "echo Azure-Image-Builder-Restarted-the-VM  > c:\\buildArtifacts\\azureImageBuilderRestart.txt",
+                "restartTimeout": "5m"
             }
         ],
         "distribute": 
