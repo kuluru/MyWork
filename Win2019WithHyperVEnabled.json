@@ -19,8 +19,7 @@
                 "scriptUri": "https://raw.githubusercontent.com/kuluru/MyWork/master/setuphyperv.ps1"
             },
             {
-                "type": "WindowsRestart",
-                "restartCheckCommand": "echo Azure-Image-Builder-Restarted-the-VM  > c:\\buildArtifacts\\azureImageBuilderRestart.txt",
+                "type": "WindowsRestart",                
                 "restartTimeout": "5m"
             }
         ],
