@@ -26,17 +26,13 @@
         "distribute": 
         [
             {   
-                "type": "SharedImage",
+                "type": "ManagedImage",
                 "galleryImageId": "/subscriptions/<subscriptionID>/resourceGroups/<rgName>/providers/Microsoft.Compute/galleries/<sharedImageGalName>/images/<imageDefName>",
                 "runOutputName": "<runOutputName>",
                 "artifactTags": {
                     "source": "azureVmImageBuilder",
                     "baseosimg": "windows2019"
-                },
-                "replicationRegions": [
-                  "<region1>",
-                  "<region2>"
-                ]
+                }
             }
         ]
     }
