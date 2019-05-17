@@ -27,7 +27,7 @@
         [
             {   
                 "type": "ManagedImage",
-                "galleryImageId": "/subscriptions/<subscriptionID>/resourceGroups/<rgName>/providers/Microsoft.Compute/galleries/<sharedImageGalName>/images/<imageDefName>",
+                "imageId": "/subscriptions/<subscriptionID>/resourceGroups/<rgName>/providers/Microsoft.Compute/images/<imageDefName>",
                 "location": "<region1>",
                 "runOutputName": "<runOutputName>",
                 "artifactTags": {
