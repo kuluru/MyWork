@@ -34,7 +34,7 @@
                     "baseosimg": "windows2019"
                 },
                 "replicationRegions": [
-                  "<region1>"                  
+                  "<region2>"                  
                 ]
             }
         ]
