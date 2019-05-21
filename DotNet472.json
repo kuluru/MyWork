@@ -47,7 +47,7 @@
                 "name": "installNet472",
                 "inline": [
                     "cd c:\\buildArtifacts",
-                    "./SetupNet472.ps1",
+                    "SetupNet472.ps1",
                 ]
             }
         ],
