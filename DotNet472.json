@@ -28,13 +28,13 @@
             },
             {
                 "type": "File",
-                "name": "downloadBuildArtifacts",
+                "name": "downloadBuildArtifacts2",
                 "sourceUri": "https://cloudteststorageazvm.file.core.windows.net/provisionscripts/install-dotnet.cmd",
                 "destination":"c:\\buildArtifacts\\install-dotnet.cmd"
             },
             {
                 "type": "File",
-                "name": "downloadBuildArtifacts",
+                "name": "downloadBuildArtifacts3",
                 "sourceUri": "https://cloudteststorageazvm.file.core.windows.net/provisionscripts/SetupNet472.ps1",
                 "destination":"c:\\buildArtifacts\\SetupNet472.ps1"
             },
