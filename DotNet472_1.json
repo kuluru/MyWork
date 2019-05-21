@@ -1,0 +1,71 @@
+{
+    "type": "Microsoft.VirtualMachineImages",
+    "apiVersion": "2019-05-01-preview",
+    "location": "<region1>",
+    "dependsOn": [],
+    "properties": {
+        "source": {
+            "type": "PlatformImage",
+                "publisher": "MicrosoftWindowsServer",
+                "offer": "WindowsServer",
+                "sku": "2019-Datacenter",
+                "version": "2019.0.20190214"
+            
+        },
+        "customize": [
+            {
+                "type": "PowerShell",
+                "name": "settingUpMgmtAgtPath",
+                "inline": [
+                    "mkdir c:\\buildArtifacts"
+                ]
+            },
+            {
+                "type": "File",
+                "name": "downloadBuildArtifacts",
+                "sourceUri": "https://cloudteststorageazvm.file.core.windows.net/provisionscripts/NDP472-KB4054530-x86-x64-AllOS-ENU.exe",
+                "destination":"c:\\buildArtifacts\\NDP472-KB4054530-x86-x64-AllOS-ENU.exe"
+            },
+            {
+                "type": "File",
+                "name": "downloadBuildArtifacts2",
+                "sourceUri": "https://cloudteststorageazvm.file.core.windows.net/provisionscripts/install-dotnet.cmd",
+                "destination":"c:\\buildArtifacts\\install-dotnet.cmd"
+            },
+            {
+                "type": "File",
+                "name": "downloadBuildArtifacts3",
+                "sourceUri": "https://cloudteststorageazvm.file.core.windows.net/provisionscripts/SetupNet472.ps1",
+                "destination":"c:\\buildArtifacts\\SetupNet472.ps1"
+            },
+            {
+                "type": "WindowsRestart",                
+                "restartTimeout": "5m"
+            },
+            {
+                "type": "PowerShell",
+                "name": "installNet472",
+                "inline": [
+                    "cd c:\\buildArtifacts",
+                    "SetupNet472.ps1"
+                ]
+            }
+        ],
+        "distribute": 
+        [
+            {   
+                "type": "SharedImage",
+                "galleryImageId": "/subscriptions/<subscriptionID>/resourceGroups/<rgName>/providers/Microsoft.Compute/galleries/<sharedImageGalName>/images/<imageDefName>",               
+                "runOutputName": "<runOutputName>",
+                "artifactTags": {
+                    "source": "azureVmImageBuilder",
+                    "baseosimg": "windows2019"
+                },
+                "replicationRegions": [
+                  "<region1>",
+                  "<region2>"
+                ]
+            }
+        ]
+    }
+}
