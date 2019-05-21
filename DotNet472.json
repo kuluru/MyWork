@@ -63,7 +63,7 @@
                 },
                 "replicationRegions": [
                   "<region1>",
-                  "<region2>",
+                  "<region2>"
                 ]
             }
         ]
