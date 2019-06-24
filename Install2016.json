@@ -21,7 +21,7 @@
             {
                 "type": "PowerShell",
                 "name": "RunSetup",
-                "scriptUri": "$PSScriptRoot/setup.ps1"
+                "scriptUri": "https://azurecomputeimgs00.blob.core.windows.net/provisioningscript-v1-6-0/setup.ps1?sp=r&st=2019-06-24T22:49:46Z&se=2019-06-26T06:49:46Z&spr=https&sv=2018-03-28&sig=PL2ymy8y0ZvXtw%2BQeGjEemPWgVRlZyuUh4NU6I51DaU%3D&sr=b"
             }
         ],
         "distribute": 
