@@ -16,7 +16,7 @@
             {
                 "type": "PowerShell",
                 "name": "Install472",
-                "scriptUri": "https://cloudteststorageazvm.blob.core.windows.net/files/InstallNet472.ps1?sp=r&st=2019-05-23T00:24:45Z&se=2019-06-30T08:24:45Z&spr=https&sv=2018-03-28&sig=Y16%2BcUdmt2L5gT9Vwhrl1nSIKWGAL9osMZIVH1kdxFQ%3D&sr=b"
+                "scriptUri": "<YourURL>"
             }
         ],
         "distribute": 
