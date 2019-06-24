@@ -23,19 +23,19 @@
             {
                 "type": "File",
                 "name": "downloadBuildArtifacts",
-                "sourceUri": "https://cloudteststorageazvm.blob.core.windows.net/files/NDP472-KB4054530-x86-x64-AllOS-ENU.exe?sp=r&st=2019-05-21T17:30:09Z&se=2019-05-22T01:30:09Z&spr=https&sv=2018-03-28&sig=Proc5tQZty0uRRKnXXEp4R0G%2FiRcjI3ow1exuRR2yn0%3D&sr=b",
+                "sourceUri": "<YourURL>/NDP472-KB4054530-x86-x64-AllOS-ENU.exe",
                 "destination":"c:\\buildArtifacts\\NDP472-KB4054530-x86-x64-AllOS-ENU.exe"
             },
             {
                 "type": "File",
                 "name": "downloadBuildArtifacts2",
-                "sourceUri": "https://cloudteststorageazvm.blob.core.windows.net/files/install-dotnet.cmd?sp=r&st=2019-05-21T17:31:12Z&se=2019-05-22T01:31:12Z&spr=https&sv=2018-03-28&sig=ckFT6UDFMmioqsGNbobCE3imiVjwD1bQSJqArosw2F8%3D&sr=b",
+                "sourceUri": "<YourURL>\",
                 "destination":"c:\\buildArtifacts\\install-dotnet.cmd"
             },
             {
                 "type": "File",
                 "name": "downloadBuildArtifacts3",
-                "sourceUri": "https://cloudteststorageazvm.blob.core.windows.net/files/SetupNet472.ps1?sp=r&st=2019-05-21T17:31:39Z&se=2019-05-22T01:31:39Z&spr=https&sv=2018-03-28&sig=6Y4FXyQvSmV6JKwE5N4bJmcINrRJNaDHVYgXx3H98lM%3D&sr=b",
+                "sourceUri": "<YourURL>\",
                 "destination":"c:\\buildArtifacts\\SetupNet472.ps1"
             },
             {
