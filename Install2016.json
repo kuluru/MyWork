@@ -16,12 +16,12 @@
             {
                 "type": "PowerShell",
                 "name": "DownloadFiles",
-                "scriptUri": "https://azurecomputeimgs00.blob.core.windows.net/azurevmimagebuilder/DownloadFiles.ps1?sp=r&st=2019-06-24T21:52:29Z&se=2019-06-27T05:52:29Z&spr=https&sv=2018-03-28&sig=%2Fly2FLm22yB4OFfz36SkCFGcbfE%2BOuJQPRlu13leXVE%3D&sr=b"
+                "scriptUri": "https://azurecomputeimgs00.blob.core.windows.net/azurevmimagebuilder/DownloadFiles.ps1?sp=r&st=2019-06-25T18:26:01Z&se=2019-06-28T02:26:01Z&spr=https&sv=2018-03-28&sig=V%2F%2BOswEZS1CSkN%2BnFI8RKvtm0bEULXgpyBCFezrwu8w%3D&sr=b"
             },
             {
                 "type": "PowerShell",
                 "name": "RunSetup",
-                "scriptUri": "https://azurecomputeimgs00.blob.core.windows.net/provisioningscript-v1-6-0/setup.ps1?sp=r&st=2019-06-24T22:49:46Z&se=2019-06-26T06:49:46Z&spr=https&sv=2018-03-28&sig=PL2ymy8y0ZvXtw%2BQeGjEemPWgVRlZyuUh4NU6I51DaU%3D&sr=b"
+                "scriptUri": "https://azurecomputeimgs00.blob.core.windows.net/azurevmimagebuilder/setup.ps1?sp=r&st=2019-06-25T18:26:34Z&se=2019-06-28T02:26:34Z&spr=https&sv=2018-03-28&sig=qYZNIo5NuEjvCiFzdIo0nKpTcgG%2FmyxpgoEErVQ1Z0o%3D&sr=b"
             }
         ],
         "distribute": 
