@@ -1,0 +1,43 @@
+{
+    "type": "Microsoft.VirtualMachineImages",
+    "apiVersion": "2019-05-01-preview",
+    "location": "<region1>",
+    "dependsOn": [],
+    "properties": {
+        "source": {
+            "type": "PlatformImage",
+                "publisher": "MicrosoftWindowsServer",
+                "offer": "WindowsServer",
+                "sku": "2016-Datacenter",
+                "version": "14393.3025.20190604"
+            
+        },
+        "customize": [
+            {
+                "type": "PowerShell",
+                "name": "DownloadFiles",
+                "scriptUri": "https://azurecomputeimgs00.blob.core.windows.net/azurevmimagebuilder/DownloadFiles.ps1?sp=r&st=2019-06-25T23:39:42Z&se=2019-06-27T07:39:42Z&spr=https&sv=2018-03-28&sig=YgbYm4Vhc4SSeNw4qECJMhOdo4I7r4Syc1gCwq600mo%3D&sr=b"
+            },
+            {
+                "type": "PowerShell",
+                "name": "RunSetup",
+                "scriptUri": "https://azurecomputeimgs00.blob.core.windows.net/azurevmimagebuilder/setup.ps1?sp=r&st=2019-06-25T23:40:11Z&se=2019-06-27T07:40:11Z&spr=https&sv=2018-03-28&sig=BtlnLxSg5ia5HKfJpiQEBP%2FQDeDw%2FgfuJJqWEAsmKpg%3D&sr=b"
+            }
+        ],
+        "distribute": 
+        [
+            {   
+                "type": "SharedImage",
+                "galleryImageId": "/subscriptions/<subscriptionID>/resourceGroups/<rgName>/providers/Microsoft.Compute/galleries/<sharedImageGalName>/images/<imageDefName>",               
+                "runOutputName": "<runOutputName>",
+                "artifactTags": {
+                    "source": "azureVmImageBuilder",
+                    "baseosimg": "windows2016"
+                },
+                "replicationRegions": [
+                  "<region1>"
+                ]
+            }
+        ]
+    }
+}
