@@ -17,7 +17,7 @@
             {
                 "type": "PowerShell",
                 "name": "DownloadFiles",
-                "scriptUri": "https://azurecomputeimgs00.blob.core.windows.net/azurevmimagebuilder/DownloadFiles.ps1?sp=r&st=2019-06-25T23:39:42Z&se=2019-06-27T07:39:42Z&spr=https&sv=2018-03-28&sig=YgbYm4Vhc4SSeNw4qECJMhOdo4I7r4Syc1gCwq600mo%3D&sr=b"
+                "scriptUri": "https://azurecomputeimgs00.blob.core.windows.net/azurevmimagebuilder/DownloadFiles.ps1?sp=r&st=2019-06-26T19:07:25Z&se=2019-06-29T03:07:25Z&spr=https&sv=2018-03-28&sig=1ZPsolJNDx5C5nLWpJIiNUTQHrYyIxmAtkzSGgNO5Zg%3D&sr=b"
             },
             {
                 "type": "PowerShell",
