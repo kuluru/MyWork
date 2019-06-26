@@ -4,6 +4,7 @@
     "location": "<region1>",
     "dependsOn": [],
     "properties": {
+        "buildTimeoutInMinutes": 120
         "source": {
             "type": "PlatformImage",
                 "publisher": "MicrosoftWindowsServer",
