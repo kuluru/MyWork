@@ -10,7 +10,7 @@
                 "publisher": "MicrosoftWindowsServer",
                 "offer": "WindowsServer",
                 "sku": "2016-Datacenter",
-                "version": "14393.3025.20190604"
+                "version": "2016.127.20190603"
             
         },
         "customize": [
