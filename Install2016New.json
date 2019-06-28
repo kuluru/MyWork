@@ -22,7 +22,7 @@
             {
                 "type": "PowerShell",
                 "name": "RunSetup",
-                "scriptUri": "https://azurecomputeimgs00.blob.core.windows.net/azurevmimagebuilder/setup.ps1?sp=r&st=2019-06-25T23:40:11Z&se=2019-06-27T07:40:11Z&spr=https&sv=2018-03-28&sig=BtlnLxSg5ia5HKfJpiQEBP%2FQDeDw%2FgfuJJqWEAsmKpg%3D&sr=b"
+                "scriptUri": "https://azurecomputeimgs00.blob.core.windows.net/azurevmimagebuilder/setup.ps1?sp=r&st=2019-06-28T22:58:34Z&se=2019-06-30T06:58:34Z&spr=https&sv=2018-03-28&sig=ku5H1lBhJkkmxshe3dog2K2ZJ%2FkvkNCLqqErqalMQ7o%3D&sr=b"
             }
         ],
         "distribute": 
