@@ -11,31 +11,7 @@
  
             
         },
-    "customize": [
-      {
-        "type": "PowerShell",
-        "name": "CreateCtOneBoxDirectory",
-        "inline": ["mkdir C:\\ctonebox\\setup"]
-      },
-      {
-        "type": "File",
-        "name": "DownloadCtOneBoxInstallationScript",
-        "sourceUri": "https://ctoneboxsetup.blob.core.windows.net/current/InstallOneBox.ps1?sv=2018-03-28&ss=b&srt=sco&sp=r&se=2019-08-20T03:18:37Z&st=2019-08-05T19:18:37Z&spr=https&sig=IShUwZv6is5njGyAbTaJ20vN0u7tSrBmLkV2G4LT2Hg%3D",
-        "destination": "C:\\ctonebox\\setup\\InstallOneBox.ps1"
-      },
-      {
-        "type": "PowerShell",
-        "name": "RunCtOneBoxInstallationScript",
-        "inline": [
-          "C:\\ctonebox\\setup\\InstallOneBox.ps1 -SasToken \"?sv=2018-03-28&ss=b&srt=sco&sp=r&se=2019-08-20T03:18:37Z&st=2019-08-05T19:18:37Z&spr=https&sig=IShUwZv6is5njGyAbTaJ20vN0u7tSrBmLkV2G4LT2Hg%3D\" -CloudTestDropUrl \"https://cloudtest.artifacts.visualstudio.com/DefaultCollection/_apis/drop/drops/CloudTest/79e0ddeb0558d22cb7b52449683a1366107c146a/0da58b57-a086-c5da-c952-3d8288df44e9\" -PatToken \"cfwb6k73xcxkze6ozhrd62urmmoy3ksdtqxz2yalco4eaafy5vza\""
-        ]
-      },
-      {
-        "type": "WindowsRestart",
-        "restartCheckCommand": "echo Azure-Image-Builder-Restarted-the-VM  > c:\\buildArtifacts\\azureImageBuilderRestart.txt",
-        "restartTimeout": "5m"
-      }
-    ],
+    "customize": [],
     "distribute": [
       {
         "type": "ManagedImage",
