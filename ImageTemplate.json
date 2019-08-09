@@ -1,17 +1,15 @@
 {
-  "type": "Microsoft.VirtualMachineImages/imageTemplates",
-  "apiVersion": "2019-05-01-preview",
-  "location": "WestUS2",
-  "dependsOn": [],
-  "tags": {
-    "imagebuilderTemplate": "sqlengazenclaveimage"
-  },
-
-  "properties": {
-    "buildTimeoutInMinutes": 80,
-     "source": {
+    "type": "Microsoft.VirtualMachineImages",
+    "apiVersion": "2019-05-01-preview",
+    "location": "WestUS2",
+    "dependsOn": [],
+    "properties": {
+      "buildTimeoutInMinutes": 80,
+        "source": {
             "type": "ManagedImage",
-                "imageId": "/subscriptions/d2c75e0a-9cc0-40d3-922e-2924299fde1c/resourceGroups/SQLCTEUS/providers/Microsoft.Compute/images/sqlengazenclaveimage20190522"            
+                "imageId": "/subscriptions/d2c75e0a-9cc0-40d3-922e-2924299fde1c/resourceGroups/SQLCTEUS/providers/Microsoft.Compute/images/sqlengazenclaveimage20190522"
+ 
+            
         },
     "customize": [
       {
@@ -50,5 +48,5 @@
         }
       }
     ]
-  }
-}
+        }
+    }
