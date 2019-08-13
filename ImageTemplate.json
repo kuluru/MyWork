@@ -42,7 +42,7 @@
         "runOutputName": "OneBoxImage",
         "artifactTags": {
           "source": "azVmImageBuilder",
-          "baseosimg": "sqlengazenclaveimage"
+          "baseosimg": "sqlnestedimg"
         }
       }
     ]
