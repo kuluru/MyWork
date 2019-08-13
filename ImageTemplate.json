@@ -37,7 +37,7 @@
       "distribute": [
       {
         "type": "ManagedImage",
-        "imageId": "/subscriptions/bb5cc0e4-145e-4de9-a1e6-6f5c3517bd82/resourceGroups/MatousImgBuilderRG/providers/Microsoft.Compute/images/CustomDataGroup",
+        "imageId": "/subscriptions/bb5cc0e4-145e-4de9-a1e6-6f5c3517bd82/resourceGroups/MatousImgBuilderRG/providers/Microsoft.Compute/images/CustomDataGroup2",
         "location": "<region1>",
         "runOutputName": "OneBoxImage",
         "artifactTags": {
