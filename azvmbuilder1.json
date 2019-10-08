@@ -1,8 +1,8 @@
 $url = "https://azurecomputeimgs00.blob.core.windows.net/azurevmimagebuilder/DownloadFiles.ps1?sp=r&st=2019-10-01T20:35:32Z&se=2019-11-01T04:35:32Z&spr=https&sv=2018-03-28&sig=TVt1IEPyWSGqktZLmrojzaxvAdBxpRijfEqFCA9AMT4%3D&sr=b"
-$output = @"$PSScriptRoot\DownloadFiles.ps1"
+$output = "$PSScriptRoot/DownloadFiles.ps1"
 
 $url2 = "https://azurecomputeimgs00.blob.core.windows.net/azurevmimagebuilder/setup.ps1?sp=r&st=2019-09-30T20:14:43Z&se=2019-11-01T04:14:43Z&spr=https&sv=2018-03-28&sig=imuNMzB3PoT9KF%2FpluihWMnKmcFU1ecknkhRKoEIwu4%3D&sr=b"
-$output2 = @"$PSScriptRoot\setup.ps1"
+$output2 = "$PSScriptRoot/setup.ps1"
 
 $wc = New-Object System.Net.WebClient
 $wc.DownloadFile($url, $output)
