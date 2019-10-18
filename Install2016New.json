@@ -16,12 +16,12 @@
             {
                 "type": "PowerShell",
                 "name": "DownloadFiles",
-                "scriptUri": "https:///azurevmimagebuilder/DownloadFiles.ps1?sp=r&st=2019-10-18T03:13:39Z&se=2019-12-31T12:13:39Z&spr=https&sv=2019-02-02&sr=b&sig=o%2BOQzB69jo2frTxf2NOZ3dVPuh%2Fy91RpgzLK1kHLJv0%3D"
+                "scriptUri": "https://azurecomputeimgs00.blob.core.windows.net/azurevmimagebuilder/DownloadFiles.ps1?sp=r&st=2019-10-18T03:13:39Z&se=2019-12-31T12:13:39Z&spr=https&sv=2019-02-02&sr=b&sig=o%2BOQzB69jo2frTxf2NOZ3dVPuh%2Fy91RpgzLK1kHLJv0%3D"
             },
             {
                 "type": "PowerShell",
                 "name": "RunSetup",
-                "scriptUri": "https:///azurevmimagebuilder/setup.ps1?sp=r&st=2019-10-18T03:14:13Z&se=2019-12-31T12:14:13Z&spr=https&sv=2019-02-02&sr=b&sig=WNr2KAZlxM7MtaazuHtDw%2Bivo%2ByEV5wPcghjO1ftnWc%3D"
+                "scriptUri": "https://azurecomputeimgs00.blob.core.windows.net/azurevmimagebuilder/setup.ps1?sp=r&st=2019-10-18T17:07:45Z&se=2020-01-01T02:07:45Z&spr=https&sv=2019-02-02&sr=b&sig=v13cSsFf5mkjoWL%2FMoVXAuPbiRXmcaXSVvifHpZYPKw%3D"
             },
            {
              "type": "WindowsRestart",
