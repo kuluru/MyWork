@@ -16,12 +16,12 @@
             {
                 "type": "PowerShell",
                 "name": "DownloadFiles",
-                "scriptUri": "https://azurecomputeibuilder/DownloadFiles.ps1?sp=r&st=2019-10-23T00:36:51Z&se=2019-Z&spr=https&sv=2019-02-02&sr=b&sig=eVlp8oKVOsbK8Dc2IbJuxMvzh4lGPoQ5sY2%2FH5PV90w%3D"
+                "scriptUri": "https://provisionscriptsstacct.blob.core.windows.net/ver1/DownloadFiles.ps1?sp=r&st=2019-11-01T22:41:21Z&se=2020-01-01T07:41:21Z&spr=https&sv=2019-02-02&sr=b&sig=UQaFVMlTX4AzmXHrWkrDII6zTe8MBNwxLGpzbCQk6zA%3D"
             },
             {
                 "type": "PowerShell",
                 "name": "RunSetup",
-                "scriptUri": "https://azurecompuagebuilder/setup.ps1?sp=r&st=2019-10-23T00:37:33Z&se=2019-12-31T09:37:332&sr=b&sig=If7NuyqiK6n9TDTowA3rlhK%2BalvJU4y3pvs6FThUnmM%3D"
+                "scriptUri": "https://provisionscriptsstacct.blob.core.windows.net/ver1/setup.ps1?sp=r&st=2019-11-01T22:42:11Z&se=2020-01-01T07:42:11Z&spr=https&sv=2019-02-02&sr=b&sig=wbwgl%2BOKF0rsYx4Dd%2BQW0jSQ0bGzWkYTwmwidTNk2o4%3D"
             },
            {
              "type": "WindowsRestart",
