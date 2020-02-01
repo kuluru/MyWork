@@ -16,12 +16,17 @@
             {
                 "type": "PowerShell",
                 "name": "DownloadFiles",
-                "scriptUri": "https://provisionscriptsstacct.blob.core.windows.net/ver1/DownloadFiles.ps1?sp=r&st=2019-12-11T19:52:59Z&se=2020-01-01T03:52:59Z&spr=https&sv=2019-02-02&sr=b&sig=mjn30uf9oiWFSpAabSe07Y5LOcrTEkQmZYKB9A5LNh8%3D"
+                "scriptUri": "https://provisionscriptsstacct.blob.core.windows.net/ver1/DownloadFiles.ps1?sp=r&st=2020-02-01T00:33:50Z&se=2020-02-07T08:33:50Z&spr=https&sv=2019-02-02&sr=b&sig=NyBGYgnljx5r6K119%2Fs6OMbO79v7oZ25lHt3zHBIglU%3D"
             },
             {
                 "type": "PowerShell",
                 "name": "RunSetup",
-                "scriptUri": "https://provisionscriptsstacct.blob.core.windows.net/ver1/setup.ps1?sp=r&st=2019-12-11T19:51:13Z&se=2020-01-01T03:51:13Z&spr=https&sv=2019-02-02&sr=b&sig=YuNJWTYU4nyUQPquxIxss92DtYRpLs%2B75yuTz2eHBmU%3D"
+                "scriptUri": "https://provisionscriptsstacct.blob.core.windows.net/ver1/setup.ps1?sp=r&st=2020-02-01T00:30:37Z&se=2020-02-07T08:30:37Z&spr=https&sv=2019-02-02&sr=b&sig=SgR3iFTq0fH5DJwlPKNquaGqjzzzX%2FpNkRhMhhj%2FSt0%3D"
+            },
+            {
+                "type": "PowerShell",
+                "name": "RunSetup",
+                "scriptUri": "https://provisionscriptsstacct.blob.core.windows.net/ver1/EnableWindowsIIS.ps1?sp=r&st=2020-02-01T00:32:28Z&se=2020-02-07T08:32:28Z&spr=https&sv=2019-02-02&sr=b&sig=br%2FdmKSCVEHR2SYRBykKtQRolDjXETfZ%2FcMlh1kAsZ4%3D"
             },
            {
              "type": "WindowsRestart",
